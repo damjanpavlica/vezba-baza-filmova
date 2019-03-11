@@ -1,6 +1,10 @@
 # Vezba: Baza filmova
 
-Napraviti Front-end aplikaciju koja koristi Baza filmova API: https://github.com/skolakoda/baza-filmova-api. Aplikacija treba da ima 3 strane:
+Napraviti Front-end aplikaciju koja koristi Baza filmova API: 
+
+https://github.com/skolakoda/baza-filmova-api. 
+
+Aplikacija treba da ima 3 strane:
 
 - Naslovna (samo staticna stranica za dobrodoslicu)
 - Pretraga

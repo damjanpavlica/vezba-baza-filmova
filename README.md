@@ -5,7 +5,7 @@ https://github.com/skolakoda/baza-filmova-api.
 
 Aplikacija treba da ima 3 strane:
 
-- Naslovna (samo staticna stranica za dobrodoslicu)
+- Naslovna (staticna stranica za dobrodoslicu)
 - Pretraga
 - Dodaj film
 

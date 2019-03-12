@@ -11,7 +11,7 @@ Aplikacija treba da ima 3 strane:
 
 Za osnovni prikaz potrebno je koristiti CSS grid.
 
-## Pretraga
+## Stranica Pretraga
 
 Filmove je potrebno ucitati sa API-ja, a dok se ceka ucitavanje prikazati animirani ucitavac (*loader*). Na stranici se inicijalno prikazuju svi filmovi, a kada posetilac zapocne pretragu, onda se prikazuju samo rezultati.
 
@@ -22,7 +22,9 @@ Na stranici se nalazi jedno input polje, pomocu kojeg se filmovi pretrazuju po n
 - Po nazivu uzlazno
 - Po nazivu silazno
 
-## Dodaj film
+Kada se klikne na bilo koji film, otvara se pojedinacna stranica sa informacijama o datom filmu, i komentarima ukoliko ih ima na serveru. Bonus je prikazati jos neku informaciju o filmu, npr. sa nekog javnog API-ja ili Wikipedije.
+
+## Stranica Dodaj film
 
 Na stranici za dodavanje filma se nalazi jedna forma sa tri input polja:
 

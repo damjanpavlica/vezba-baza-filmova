@@ -9,7 +9,7 @@ Aplikacija treba da ima 3 strane:
 - Pretraga
 - Dodaj film
 
-Za osnovni prikaz potrebno je koristiti CSS grid.
+Za strukturu stranice i prikaz filmova koristiti CSS grid.
 
 ## Pretraga
 
@@ -22,6 +22,8 @@ Na stranici se nalazi jedno input polje, pomocu kojeg se filmovi pretrazuju po n
 - Po nazivu uzlazno
 - Po nazivu silazno
 
+**Bonus:** da korisnik unese koliko ce mu se rezultata najvise prikazati.
+
 ## Dodaj film
 
 Na stranici za dodavanje filma se nalazi jedna forma sa tri input polja:
@@ -30,6 +32,18 @@ Na stranici za dodavanje filma se nalazi jedna forma sa tri input polja:
 - godina
 - URL slike
 
-Sva tri polja su obavezna, a kada se popuni URL slike, potrebno je prikazati sliku (*preview*) na samoj stranici, pre nego sto se podaci posalju serveru.
+Sva tri polja su obavezna, a kada se popuni URL slike, potrebno je prikazati sliku (*preview*) na samoj stranici, pre nego sto se podaci posalju serveru. Ako je sve u redu, pritiskom na dugme podaci se salju serveru.
 
-Ako je sve u redu, pritiskom na dugme podaci se salju serveru.
+**Bonus:** Da se HTTP POST zahtev radi preko Javascripta, i da se prikazuje odgovor servera, bez osvezavanja stranice.
+
+## Film info
+
+Kada se u rezultatima pretrage klikne na bilo koji film, otvara se pojedinacna stranica sa informacijama o datom filmu, i komentarima ukoliko ih ima na serveru. 
+
+**Bonus:** prikazati jos neku informaciju o filmu, npr. sa nekog javnog API-ja ili Wikipedije. Npr:
+
+https://en.wikipedia.org/w/api.php?action=query&titles=Ko%20to%20tamo%20peva&prop=extracts&format=json&redirects
+
+## Admin view
+
+Dodati opciju da je moguce ulogovati se kao admin (koristiti bilo koju lozinku) nakon cega se u uglu svakog filma pokazuje dugme `x`, koje brise film iz baze pomocu DELETE zahteva. Biti pazljiv sa brisanjem, jer se podaci iz baze bespovratno brisu!

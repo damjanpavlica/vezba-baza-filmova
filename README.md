@@ -43,3 +43,7 @@ Kada se u rezultatima pretrage klikne na bilo koji film, otvara se pojedinacna s
 **Bonus:** prikazati jos neku informaciju o filmu, npr. sa nekog javnog API-ja ili Wikipedije. Npr:
 
 https://en.wikipedia.org/w/api.php?action=query&titles=Ko%20to%20tamo%20peva&prop=extracts&format=json&redirects
+
+## Admin view
+
+Dodati opciju da je moguce ulogovati se kao admin (koristiti bilo koju lozinku) nakon cega se u uglu svakog filma pokazuje dugme `x`, pomocu kojeg se brise film iz baze pomocu DELETE zahteva. Biti pazljiv sa brisanjem, jer se podaci iz baze bespovratno brisu!

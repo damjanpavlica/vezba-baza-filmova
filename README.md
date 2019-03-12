@@ -52,7 +52,7 @@ Dodati opciju da je moguce ulogovati se kao admin (koristiti bilo koju lozinku) 
 
 Implementirati push notifikacije, poput standarnih notifikacija na Facebook-u i drugim drustvenim mrezama, koje ce obavestiti korisnika da je novi film dodat. Sledeci Javascript uspostavlja vezu sa serverom preko web socket protokola, nakon cega nas obavestava kada neko doda novi film:
 
-```
+```js
 const ws = new WebSocket('ws://baza-filmova.herokuapp.com')
 
 ws.addEventListener('message', e => {

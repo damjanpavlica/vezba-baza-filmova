@@ -2,7 +2,6 @@ const prikaz = document.getElementById('prikaz')
 const kriterij = document.getElementById('kriterij')
 
 let sviFilmovi = []
-let rezultati = []
 
 function render(niz) {
   let sablon = ''
@@ -15,11 +14,11 @@ function render(niz) {
 fetch('https://baza-filmova.herokuapp.com/filmovi/ ')
   .then(res => res.json())
   .then(data => {
-    sviFilmovi = rezultati = data
-    render(rezultati)
+    sviFilmovi = data
+    render(data)
   })
 
 kriterij.addEventListener('input', function() {
-  rezultati = sviFilmovi.filter(film => film.naziv.includes(kriterij.value))
+  const rezultati = sviFilmovi.filter(film => film.naziv.includes(kriterij.value))
   render(rezultati)
 })

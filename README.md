@@ -44,7 +44,7 @@ Kada se u rezultatima pretrage klikne na bilo koji film, otvara se pojedinacna s
 
 https://en.wikipedia.org/w/api.php?action=query&titles=Ko%20to%20tamo%20peva&prop=extracts&format=json&redirects
 
-## Admin view
+## Administratorska ovlascenja
 
 Dodati opciju da je moguce ulogovati se kao admin (koristiti bilo koju lozinku) nakon cega se u uglu svakog filma pokazuje dugme `x`, koje brise film iz baze pomocu DELETE zahteva. Biti pazljiv sa brisanjem, jer se podaci iz baze bespovratno brisu!
 

@@ -22,6 +22,8 @@ Na stranici se nalazi jedno input polje, pomocu kojeg se filmovi pretrazuju po n
 - Po nazivu uzlazno
 - Po nazivu silazno
 
+Bonus: da korisnik unese koliko ce mu se rezultata najvise prikazati.
+
 ## Dodaj film
 
 Na stranici za dodavanje filma se nalazi jedna forma sa tri input polja:

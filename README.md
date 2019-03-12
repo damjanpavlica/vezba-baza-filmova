@@ -32,9 +32,7 @@ Na stranici za dodavanje filma se nalazi jedna forma sa tri input polja:
 - godina
 - URL slike
 
-Sva tri polja su obavezna, a kada se popuni URL slike, potrebno je prikazati sliku (*preview*) na samoj stranici, pre nego sto se podaci posalju serveru.
-
-Ako je sve u redu, pritiskom na dugme podaci se salju serveru.
+Sva tri polja su obavezna, a kada se popuni URL slike, potrebno je prikazati sliku (*preview*) na samoj stranici, pre nego sto se podaci posalju serveru. Ako je sve u redu, pritiskom na dugme podaci se salju serveru.
 
 Bonus: Da se HTTP POST zahtev radi preko Javascripta, i da se prikazuje odgovor servera, bez osvezavanja stranice.
 

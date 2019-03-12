@@ -5,7 +5,7 @@ let sviFilmovi = []
 
 function render(niz) {
   let sablon = ''
-  for (var i = 0; i < niz.length; i++) {
+  for (let i = 0; i < niz.length; i++) {
     sablon += `<h3>${niz[i].naziv}</h3>`
   }
   prikaz.innerHTML = sablon

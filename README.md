@@ -9,7 +9,7 @@ Aplikacija treba da ima 3 strane:
 - Pretraga
 - Dodaj film
 
-Za osnovni prikaz potrebno je koristiti CSS grid.
+Za strukturu stranice i prikaz filmova koristiti CSS grid.
 
 ## Pretraga
 

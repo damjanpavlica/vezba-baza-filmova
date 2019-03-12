@@ -22,7 +22,9 @@ Na stranici se nalazi jedno input polje, pomocu kojeg se filmovi pretrazuju po n
 - Po nazivu uzlazno
 - Po nazivu silazno
 
-Kada se klikne na bilo koji film, otvara se pojedinacna stranica sa informacijama o datom filmu, i komentarima ukoliko ih ima na serveru. Bonus je prikazati jos neku informaciju o filmu, npr. sa nekog javnog API-ja ili Wikipedije.
+Kada se klikne na bilo koji film, otvara se pojedinacna stranica sa informacijama o datom filmu, i komentarima ukoliko ih ima na serveru. Bonus je prikazati jos neku informaciju o filmu, npr. sa nekog javnog API-ja ili Wikipedije. Npr:
+
+https://en.wikipedia.org/w/api.php?action=query&titles=Ko%20to%20tamo%20peva&prop=extracts&format=json&redirects
 
 ## Stranica Dodaj film
 

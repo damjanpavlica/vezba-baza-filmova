@@ -36,6 +36,8 @@ Sva tri polja su obavezna, a kada se popuni URL slike, potrebno je prikazati sli
 
 Ako je sve u redu, pritiskom na dugme podaci se salju serveru.
 
+Bonus: Da se HTTP POST zahtev radi preko Javascripta, i da se prikazuje odgovor servera, bez osvezavanja stranice.
+
 ## Film info
 
 Kada se u rezultatima pretrage klikne na bilo koji film, otvara se pojedinacna stranica sa informacijama o datom filmu, i komentarima ukoliko ih ima na serveru. 

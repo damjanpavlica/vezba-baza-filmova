@@ -36,6 +36,8 @@ Ako je sve u redu, pritiskom na dugme podaci se salju serveru.
 
 ## Film info
 
-Kada se u rezultatima pretrage klikne na bilo koji film, otvara se pojedinacna stranica sa informacijama o datom filmu, i komentarima ukoliko ih ima na serveru. Bonus je prikazati jos neku informaciju o filmu, npr. sa nekog javnog API-ja ili Wikipedije. Npr:
+Kada se u rezultatima pretrage klikne na bilo koji film, otvara se pojedinacna stranica sa informacijama o datom filmu, i komentarima ukoliko ih ima na serveru. 
+
+Bonus je prikazati jos neku informaciju o filmu, npr. sa nekog javnog API-ja ili Wikipedije. Npr:
 
 https://en.wikipedia.org/w/api.php?action=query&titles=Ko%20to%20tamo%20peva&prop=extracts&format=json&redirects

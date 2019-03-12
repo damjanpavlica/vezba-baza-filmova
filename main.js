@@ -11,7 +11,7 @@ function render(niz) {
   prikaz.innerHTML = sablon
 }
 
-fetch('https://baza-filmova.herokuapp.com/filmovi/ ')
+fetch('https://baza-filmova.herokuapp.com/filmovi/')
   .then(res => res.json())
   .then(data => {
     sviFilmovi = data

@@ -11,7 +11,7 @@ Aplikacija treba da ima 3 strane:
 
 Za osnovni prikaz potrebno je koristiti CSS grid.
 
-## Stranica Pretraga
+## Pretraga
 
 Filmove je potrebno ucitati sa API-ja, a dok se ceka ucitavanje prikazati animirani ucitavac (*loader*). Na stranici se inicijalno prikazuju svi filmovi, a kada posetilac zapocne pretragu, onda se prikazuju samo rezultati.
 
@@ -26,7 +26,7 @@ Kada se klikne na bilo koji film, otvara se pojedinacna stranica sa informacijam
 
 https://en.wikipedia.org/w/api.php?action=query&titles=Ko%20to%20tamo%20peva&prop=extracts&format=json&redirects
 
-## Stranica Dodaj film
+## Dodaj film
 
 Na stranici za dodavanje filma se nalazi jedna forma sa tri input polja:
 

@@ -19,6 +19,7 @@ fetch('https://baza-filmova.herokuapp.com/filmovi/ ')
   })
 
 kriterij.addEventListener('input', function() {
+  // TODO: da bude neosetljiv na velika i mala slova
   const rezultati = sviFilmovi.filter(film => film.naziv.includes(kriterij.value))
   render(rezultati)
 })

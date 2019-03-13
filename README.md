@@ -69,3 +69,9 @@ ws.addEventListener('message', e => {
   console.log(e.data) // TODO: prikazati notifikaciju u headeru
 })
 ```
+
+## Radovi
+
+- https://github.com/MilosAksic/Movie-database
+- https://betman87.github.io/Baza-filmova/
+- https://b-b90.github.io/baza-filmova/index.html

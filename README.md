@@ -54,6 +54,10 @@ http://www.omdbapi.com/?t=Matrix&y=1999&plot=full&apikey=xxxxxx
 
 Da bi link radio potrebno je da se registrujete za `apikey` na http://www.omdbapi.com/
 
+Takodje je moguce pronaci podatke o filmu i na Wikipedija API, ali neki nazivi, poput Titanika imaju vise znacenja:
+
+https://en.wikipedia.org/w/api.php?action=query&titles=Ko%20to%20tamo%20peva&prop=extracts&format=json&redirects
+
 ## Administratorska ovlascenja
 
 Dodati opciju da je moguce ulogovati se kao admin (koristiti bilo koju lozinku) nakon cega se u uglu svakog filma pokazuje dugme `x`, koje brise film iz baze pomocu DELETE zahteva. Biti pazljiv sa brisanjem, jer se podaci iz baze bespovratno brisu!

@@ -43,7 +43,13 @@ Kada se u rezultatima pretrage klikne na bilo koji film, otvara se pojedinacna s
 **Bonus:** prikazati jos neku informaciju o filmu, sa Open Movie Database API-ja. Npr:
 
 ```
-http://www.omdbapi.com/?t=Rocky&apikey=xxxxxx&plot=full
+http://www.omdbapi.com/?t=Rocky&plot=full&apikey=xxxxxx
+```
+
+Ako ima vise filmova pod istim nazivom, potrebno je navesti i godinu:
+
+```
+http://www.omdbapi.com/?t=Matrix&y=1999&plot=full&apikey=xxxxxx
 ```
 
 Da bi link radio potrebno je da se registrujete za `apikey` na http://www.omdbapi.com/

@@ -38,7 +38,7 @@ Sva tri polja su obavezna, a kada se popuni URL slike, potrebno je prikazati sli
 
 ## Film info
 
-Kada se u rezultatima pretrage klikne na bilo koji film, otvara se pojedinacna stranica sa informacijama o datom filmu, i komentarima ukoliko ih ima na serveru. 
+Kada se u rezultatima pretrage klikne na bilo koji film, otvara se pojedinacna stranica sa informacijama o datom filmu, i komentarima ukoliko ih ima na serveru. Treba napraviti posebnu HTML stranicu, kojoj cemo prosledjivati id filma preko URL parametra. Prilikom otvaranja stranice, iz Javascripta je potrebno ucitati podatke sa servera o trazenom filmu i prikazati ih.
 
 **Bonus:** prikazati jos neku informaciju o filmu, sa Open Movie Database API-ja. Npr:
 
@@ -61,6 +61,8 @@ https://en.wikipedia.org/w/api.php?action=query&titles=Ko%20to%20tamo%20peva&pro
 ## Administratorska ovlascenja
 
 Dodati opciju da je moguce ulogovati se kao admin (koristiti bilo koju lozinku) nakon cega se u uglu svakog filma pokazuje dugme `x`, koje brise film iz baze pomocu DELETE zahteva. Biti pazljiv sa brisanjem, jer se podaci iz baze bespovratno brisu!
+
+Takodje, administrator ima mogucnost da edituje svaki postojeci film, odnosno da mu menja naziv, godinu, sliku i slicno. Za ovo se moze napraviti posebna stranica, na kojoj ce biti formular za izmenu postojecih podataka u filmu.
 
 ## Notifikacije
 

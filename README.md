@@ -40,9 +40,13 @@ Sva tri polja su obavezna, a kada se popuni URL slike, potrebno je prikazati sli
 
 Kada se u rezultatima pretrage klikne na bilo koji film, otvara se pojedinacna stranica sa informacijama o datom filmu, i komentarima ukoliko ih ima na serveru. 
 
-**Bonus:** prikazati jos neku informaciju o filmu, sa nekog javnog API-ja ili Wikipedije. Npr:
+**Bonus:** prikazati jos neku informaciju o filmu, sa Open Movie Database API-ja. Npr:
 
-https://en.wikipedia.org/w/api.php?action=query&titles=Ko%20to%20tamo%20peva&prop=extracts&format=json&redirects
+```
+http://www.omdbapi.com/?t=Rocky&apikey=xxxxxx&plot=full
+```
+
+Da bi link radio potrebno je da se registrujete za `apikey` na http://www.omdbapi.com/
 
 ## Administratorska ovlascenja
 

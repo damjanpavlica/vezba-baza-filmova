@@ -11,6 +11,12 @@ Aplikacija treba da ima 3 strane:
 
 Za strukturu stranice i prikaz filmova koristiti CSS grid.
 
+## Naslovna
+
+Staticna stranica sa dobrodoslicom i opstim podacima.
+
+**Bonus:** Prikazati par poslednje dodatih filmova.
+
 ## Pretraga
 
 Filmove je potrebno ucitati sa API-ja, a dok se ceka ucitavanje prikazati animirani ucitavac (*loader*). Na stranici se inicijalno prikazuju svi filmovi, a kada posetilac zapocne pretragu, onda se prikazuju samo rezultati.

@@ -38,7 +38,7 @@ Sva tri polja su obavezna, a kada se popuni URL slike, potrebno je prikazati sli
 
 ## Film info
 
-Kada se u rezultatima pretrage klikne na bilo koji film, otvara se pojedinacna stranica sa informacijama o datom filmu, i komentarima ukoliko ih ima na serveru. Treba napraviti posebnu HTML stranicu, kojoj cemo prosledjivati id filma preko URL parametra. Prilikom otvaranja stranice, iz Javascripta je potrebno ucitati podatke sa servera o trazenom filmu i prikazati ih.
+Kada se u rezultatima pretrage klikne na bilo koji film, otvara se pojedinacna stranica sa informacijama o datom filmu, i komentarima ukoliko ih ima na serveru. Treba napraviti posebnu HTML stranicu, kojoj cemo prosledjivati id filma preko URL parametra. Prilikom otvaranja stranice, iz Javascripta je potrebno ucitati podatke sa servera o trazenom filmu i prikazati ih. Alternativno, mozete napraviti modal.
 
 **Bonus:** prikazati jos neku informaciju o filmu, sa Open Movie Database API-ja. Npr:
 
@@ -75,6 +75,10 @@ ws.addEventListener('message', e => {
   console.log(e.data) // TODO: prikazati notifikaciju u headeru
 })
 ```
+
+## Paginacija
+
+Bonus je dodati paginaciju, da prikazuje 10-20 filmova po stranici. Kad se klikne na dugme 1, prikaze se prvih deset, kad se klikne na dugme 2, prikaze se narednih deset, i tako dalje.
 
 ## Radovi
 

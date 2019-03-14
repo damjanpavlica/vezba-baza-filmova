@@ -15,7 +15,7 @@ Za strukturu stranice i prikaz filmova koristiti CSS grid.
 
 Staticna stranica sa dobrodoslicom i opstim podacima.
 
-**Bonus:** Prikazati par poslednje dodatih filmova.
+**Bonus:** Prikazati 5-6 poslednje dodatih filmova.
 
 ## Pretraga
 

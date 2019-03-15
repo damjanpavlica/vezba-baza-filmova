@@ -92,3 +92,6 @@ Bonus je dodati paginaciju, da prikazuje 10-20 filmova po stranici. Kad se klikn
 - https://betman87.github.io/Baza-filmova/
 - https://b-b90.github.io/baza-filmova/index.html
 - https://github.com/B0jan93/Movie-Database
+- https://stefancvetincanin.github.io/movie-database/
+- https://github.com/mutko/search-movies
+- https://github.com/mrakaconi/movie_database
